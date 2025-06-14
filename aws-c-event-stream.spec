@@ -32,6 +32,8 @@ Summary:	Header files for AWS C Event Stream library
 Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki AWS C Event Stream
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
+Requires:	aws-c-io-devel
+Requires:	aws-checksums-devel
 
 %description devel
 Header files for AWS C Event Stream library.
