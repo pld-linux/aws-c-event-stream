@@ -76,6 +76,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc docs/images
 %{_libdir}/libaws-c-event-stream.so
-%dir %{_includedir}/aws
 %{_includedir}/aws/event-stream
 %{_libdir}/cmake/aws-c-event-stream
